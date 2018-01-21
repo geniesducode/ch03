@@ -22,3 +22,11 @@ button:hover, .button:hover {
 button, .button {
   background-color: #57a7ec;
 }
+
+.button-secondary {
+  background-color: #ec579b;
+}
+
+.button-secondary:hover {
+  background-color: #ec92bb;
+}
