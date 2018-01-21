@@ -43,3 +43,7 @@ button, .button {
 .button-secondary:hover {
   background-color: #ec92bb;
 }
+
+.container {
+  max-width: 1200px;
+}
