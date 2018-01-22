@@ -26,6 +26,7 @@ button:hover, .button:hover {
 
 button, .button {
   padding: 20px;
+  display: inline-block;
   color: white;
   font-size: inherit;
   font-family: inherit;
