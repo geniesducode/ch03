@@ -59,3 +59,12 @@ button, .button {
 .question-body, .question-number {
   padding: 20px;
 }
+
+.question-number {
+  color: white;
+  background-color: #8cbfec;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 12px 12px 0 0;
+}
