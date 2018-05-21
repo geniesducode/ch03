@@ -56,6 +56,10 @@ button, .button {
   border-radius: 12px;
 }
 
+.question label {
+  display: block;
+  padding: 5px 0;
+}
 .question-body, .question-number {
   padding: 20px;
 }
