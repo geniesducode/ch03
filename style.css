@@ -60,8 +60,18 @@ button, .button {
   display: block;
   padding: 5px 0;
 }
+
+.question button {
+  margin-top: 20px;
+}
+
 .question-body, .question-number {
   padding: 20px;
+}
+
+.question-title {
+  margin-top: 0;
+  font-size: 2rem;
 }
 
 .question-number {
