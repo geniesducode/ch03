@@ -55,3 +55,7 @@ button, .button {
   background-color: white;
   border-radius: 12px;
 }
+
+.question-body, .question-number {
+  padding: 20px;
+}
