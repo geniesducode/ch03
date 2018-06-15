@@ -26,6 +26,7 @@ button:hover, .button:hover {
 
 button, .button {
   background-color: #57a7ec;
+  padding: 20px;
 }
 
 .button-secondary {
