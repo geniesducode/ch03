@@ -1,6 +1,11 @@
 html {
   background-color: rgb(255, 255, 123);
   font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
