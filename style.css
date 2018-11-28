@@ -14,3 +14,7 @@ p {
 .text-center {
   text-align: center;
 }
+
+button {
+  background-color: #57a7ec;
+}
