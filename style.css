@@ -31,14 +31,14 @@ button:hover, .button:hover {
 }
 
 button, .button {
-  padding: 20px;
+  padding: 10px 20px;
   display: inline-block;
   color: white;
   font-size: inherit;
   font-family: inherit;
   text-decoration: none;
   border: none;
-  border-radius: 12px;
+  border-radius: 6px;
   cursor: pointer;
   background-color: #57a7ec;
 }
@@ -87,4 +87,36 @@ button, .button {
   font-size: 1.5rem;
   font-weight: bold;
   border-radius: 12px 12px 0 0;
+}
+
+.quiz-list {
+  display: flex;
+  margin-left: -12px;
+  flex-wrap: wrap;
+}
+
+.quiz-list-item {
+  padding-left: 12px;
+  padding-bottom: 12px;
+}
+
+@media (min-width: 480px) {
+  .quiz-list-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 640px) {
+  .quiz-list-item {
+    width: 33.33%;
+  }
+}
+
+.quiz-card {
+  padding: 24px;
+  background-color: white;
+}
+
+.quiz-card h3 {
+  margin-top: 0;
 }
